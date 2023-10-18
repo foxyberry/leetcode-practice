@@ -1,5 +1,5 @@
 class Solution {
-    
+
     fun findOrder(numCourses: Int, prerequisites: Array<IntArray>): IntArray {
 
         val indgree = IntArray(numCourses) { 0 }
